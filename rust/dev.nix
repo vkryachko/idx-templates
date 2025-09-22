@@ -1,6 +1,6 @@
 # To learn more about how to use Nix to configure your environment
 # see: https://developers.google.com/idx/guides/customize-idx-env
-{ pkgs, ... }:
+{ pkgs, lib, ... }:
 let
   ttyd = pkgs.writeShellScript "code-oss" ''
     rm -rf /run/idx/code-oss.sock 
