@@ -4,6 +4,9 @@
   "categories": [
     "Backend"
   ],
+  "host": {
+    "virtualization": true
+  },
   "icon": "https://www.gstatic.com/monospace/231115/logo_rust.svg"
 }
 
