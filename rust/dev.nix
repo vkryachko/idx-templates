@@ -37,6 +37,7 @@ in
   # Sets environment variables in the workspace
   env = {
     RUST_SRC_PATH = "${pkgs.rustPlatform.rustLibSrc}";
+    CLOUD_SHELL = "true";
   };
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
